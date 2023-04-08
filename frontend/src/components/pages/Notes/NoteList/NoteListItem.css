@@ -1,0 +1,27 @@
+.noteListItem {
+    border-bottom: 1px solid rgb(205, 205, 205);
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    text-decoration: none;
+}
+
+.noteListItem * {
+    color: black;
+}
+
+.noteListItem-title {
+    white-space: nowrap;
+    max-width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.noteListItem-date {
+    color: rgb(123, 123, 123);
+    margin-top: 10px;
+}

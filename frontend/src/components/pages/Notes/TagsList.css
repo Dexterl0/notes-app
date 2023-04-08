@@ -1,0 +1,51 @@
+.tags-list {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tags-list h2 {
+    margin-bottom: 20px;
+}
+
+.tag-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tag-list-item label {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.tag-list-item div {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.tag-list-item i {
+    cursor: pointer;
+}
+
+.tags-list-button {
+    font-size: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+.add-tag {
+    display: flex;
+    margin-top: 25px;
+}
+
+.add-tag button {
+    margin-left: 15px;
+}
+
+.add-tag input {
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+}

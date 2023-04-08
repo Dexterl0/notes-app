@@ -1,0 +1,23 @@
+.notesList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.new-note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
